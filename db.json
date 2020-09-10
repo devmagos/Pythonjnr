@@ -1,0 +1,128 @@
+{
+    "question": [
+        { "id": 1, "title": "What are variables?" },
+        { "id": 2, "title": "What are functions in python ?" },
+        { "id": 3, "title": "What is indentation and why is it important?" },
+        { "id": 4, "title": "The %f formatter is used to format?" },
+        { "id": 5, "title": "The floor division (//) does what?" },
+        { "id": 6, "title": "How do you write comments in python?" },
+        { "id": 7, "title": "Lists are represented by what?" },
+        { "id": 8, "title": "What is a python dictionary?" },
+        { "id": 9, "title": "What does the len() do?" },
+        { "id": 10, "title": "How do you convert a string to lowercase?" },
+        { "id": 11, "title": "One important feature of a tuple compared to list is?" },
+        { "id": 12, "title": "What is the purpose of is, not and in operators?" },
+        { "id": 13, "title": "How do you access the pair values in a dictionary?" },
+        { "id": 14, "title": "When is the type error raised?" },
+        { "id": 15, "title": "What is type conversion in python?" },
+        { "id": 16, "title": "The == is an assignment operator, true or false?" },
+        { "id": 17, "title": "A python tuple can contain different data type?" },
+        { "id": 18, "title": "5 != 2 will give the output?" },
+        { "id": 19, "title": "What is the value of x+=5 if x is 5?" },
+        { "id": 20, "title": "In python, the index position always starts from?" }
+      ],
+    "answers": [
+        { "id": 1, "body": "They are names given to data we need to store and manipulate in our programs.", "postId": 1 }, 
+        { "id": 2, "body": "They are anything.", "postId": 1 },
+        { "id": 3, "body": "They are good", "postId": 1 },
+        { "id": 4, "body": "They choose us.", "postId": 1 },
+
+        { "id": 1, "body": "It is a block of code that is executed only when it is called. It is represented with the def() keyword", "postId": 2 }, 
+        { "id": 2, "body": "Some things are good.", "postId": 2 },
+        { "id": 3, "body": "They way things function.", "postId": 2 },
+        { "id": 4, "body": "Some things are no longer there.", "postId": 2 },
+
+        { "id": 1, "body": "Indentation is a block of code. It is usually represented with a tab or four spaces. It is important in python because your code won’t run properly if it isn’t indented. All codes within loops, functions and classes etc. are written in an indented block.", "postId": 3 }, 
+        { "id": 2, "body": "Something that is working.", "postId": 3 },
+        { "id": 3, "body": "A shift in balance.", "postId": 3 },
+        { "id": 4, "body": "A movement of things.", "postId": 3 },
+        
+        { "id": 1, "body": "floats i.e. numbers with decimals.", "postId": 4 }, 
+        { "id": 2, "body": "Something on water.", "postId": 4 },
+        { "id": 3, "body": "In the sky.", "postId": 4 },
+        { "id": 4, "body": "A bird soaring.", "postId": 4 },
+        
+        { "id": 1, "body": "It rounds down the answer to the nearest whole number", "postId": 5 }, 
+        { "id": 2, "body": "When there are tiles on the ground.", "postId": 5 },
+        { "id": 3, "body": "A separation.", "postId": 5 },
+        { "id": 4, "body": "When things are multiplied.", "postId": 5 },
+
+        { "id": 1, "body": "Comments in python are written with the # character. While multiline comments are written with the ‘’’comment’’’ character.", "postId": 6 }, 
+        { "id": 2, "body": "By writing it.", "postId": 6 },
+        { "id": 3, "body": "By placing a colon.", "postId": 6 },
+        { "id": 4, "body": "By creating a string.", "postId": 6 },
+
+        { "id": 1, "body": "The square brackets i.e. []", "postId": 7 }, 
+        { "id": 2, "body": "The curly brackets i.e. {}", "postId": 7 },
+        { "id": 3, "body": "The parentesis i.e. ()", "postId": 7 },
+        { "id": 4, "body": "The colon i.e. :", "postId": 7 },
+
+        { "id": 1, "body": "It is a built-in data type. It defines a one-to-one relationship between keys and values. They can be indexed by their keys. Apple", "postId": 8 }, 
+        { "id": 2, "body": "An oxford dictionary.", "postId": 8 },
+        { "id": 3, "body": "An english learners dictionary.", "postId": 8 },
+        { "id": 4, "body": "A field.", "postId": 8 },
+
+        { "id": 1, "body": "It is used to determine the length of a string, a list, an array, etc.", "postId": 9 }, 
+        { "id": 2, "body": "Calculates the area of a circle.", "postId": 9 },
+        { "id": 3, "body": "Calculates the area of a shape.", "postId": 9 },
+        { "id": 4, "body": "Calculates the area of a triangle.", "postId": 9 },
+
+        { "id": 1, "body": "To convert a string to lowercase, lower() function can be used.", "postId": 10 }, 
+        { "id": 2, "body": "By writing it in small letters.", "postId": 10 },
+        { "id": 3, "body": "By writing it in large letters.", "postId": 10 },
+        { "id": 4, "body": "By writing it in small fonts.", "postId": 10 },
+
+        { "id": 1, "body": "Unlike lists, it’s immutable once declared.", "postId": 11 }, 
+        { "id": 2, "body": "Unlike lists, it’s very strong.", "postId": 11 },
+        { "id": 3, "body": "Unlike lists, there's no difference.", "postId": 11 },
+        { "id": 4, "body": "Unlike lists, they are great.", "postId": 11 },
+
+        { "id": 1, "body": "They take one or more values and produce a corresponding result. is: returns true when 2 operands are true  (Example: “a” is ‘a’) not: returns the inverse of the boolean value in: checks if some element is present in some sequence", "postId": 12 }, 
+        { "id": 2, "body": "Nothing.", "postId": 12 },
+        { "id": 3, "body": "Their purpose is unknown.", "postId": 12 },
+        { "id": 4, "body": "They are not defined.", "postId": 12 },
+
+        { "id": 1, "body": "By using the dictName.items()", "postId": 13 }, 
+        { "id": 2, "body": "By using the changing it.", "postId": 13 },
+        { "id": 3, "body": "Who knows.", "postId": 13 },
+        { "id": 4, "body": "By using the open.items[]", "postId": 13 },
+
+        { "id": 1, "body": " is raised when an operation or function is applied to an object of inappropriate type.", "postId": 14 }, 
+        { "id": 2, "body": "Everything.", "postId": 14 },
+        { "id": 3, "body": "I have no clue.", "postId": 14 },
+        { "id": 4, "body": "Whenever power goes out.", "postId": 14 },
+
+        { "id": 1, "body": "Type conversion refers to the conversion of one data type into another.", "postId": 15 }, 
+        { "id": 2, "body": "Changing lanes.", "postId": 15 },
+        { "id": 3, "body": "Changing events.", "postId": 15 },
+        { "id": 4, "body": "A move from gray to scale.", "postId": 15 },
+
+        { "id": 1, "body": "False", "postId": 16 }, 
+        { "id": 2, "body": "True", "postId": 16 },
+        { "id": 3, "body": "!False", "postId": 16 },
+        { "id": 4, "body": "Truthy", "postId": 16 },
+
+        { "id": 1, "body": "True", "postId": 17 }, 
+        { "id": 2, "body": "Null", "postId": 17 },
+        { "id": 3, "body": "No", "postId": 17 },
+        { "id": 4, "body": "False", "postId": 17 },
+
+        { "id": 1, "body": "True", "postId": 18 }, 
+        { "id": 2, "body": "False", "postId": 18 },
+        { "id": 3, "body": "Falsy", "postId": 18 },
+        { "id": 4, "body": "!True", "postId": 18 },
+
+        { "id": 1, "body": "10", "postId": 19 }, 
+        { "id": 2, "body": "6", "postId": 19 },
+        { "id": 3, "body": "8", "postId": 19 },
+        { "id": 4, "body": "3", "postId": 19 },
+
+        { "id": 1, "body": "zero", "postId": 20 }, 
+        { "id": 2, "body": "!zero", "postId": 20 },
+        { "id": 3, "body": "1", "postId": 20 },
+        { "id": 4, "body": "!1", "postId": 20 }
+      ],
+    "profile": {
+    "name": "typicode"
+      }
+    }
